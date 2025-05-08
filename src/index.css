@@ -7,3 +7,10 @@
 :root{
   font-family: 'Inter', sans-serif;
 }
+
+/* enable smooth scrolling everywhere and prevent overscroll “bounce” */
+html, body {
+  scroll-behavior: smooth;       /* smooth scroll everywhere */
+  overscroll-behavior: none;     /* no bounce or lock on either axis */
+  touch-action: pan-y;           /* only vertical swipes */
+}

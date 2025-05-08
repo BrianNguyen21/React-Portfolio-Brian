@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 export default function Contact() {
   return (
     <motion.section
+      id="contact"
       className="border-b border-neutral-900 pb-20 px-4 sm:px-8"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -17,12 +18,7 @@ export default function Contact() {
       <div className="space-y-4 text-center font-light text-base sm:text-lg md:text-xl text-neutral-300">
         <p>Anaheim California 92804</p>
         <p>📞 Phone Number: +17143500753</p>
-        <a
-          href={`mailto:$nguyenbrian726@gmail.com`}
-          className="inline-block border-b border-transparent hover:border-cyan-300 transition-colors"
-        >
-          nguyenbrian726@gmail.com
-        </a>
+        <p>✉️ Email: nguyenbrian726@gmail.com</p>
       </div>
     </motion.section>
   );

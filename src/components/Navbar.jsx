@@ -10,7 +10,7 @@ import {
 
 export default function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 bg-transparent px-4 sm:px-8 py-4">
+    <nav className="relative bg-transparent px-4 sm:px-8 py-4">
       <div className="container mx-auto flex flex-col sm:flex-row items-center sm:justify-between">
         {/* Logo */}
         <a href="/" className="flex items-center mb-4 sm:mb-0">
@@ -43,7 +43,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="hover:opacity-80 transition-opacity"
           >
-            <FaGithub className="text-[#171515]" />
+            <FaGithub className="text-white" />
           </a>
           <a
             href="https://www.instagram.com/briannguyenn21/"
